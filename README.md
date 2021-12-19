@@ -1,6 +1,6 @@
 # Fligth Surety Project
 ## Introduction
-This code is part of the Flight Surety Project for the Blockchain Developer Nanodegree by Udacity. The goal of this project is to implement a decentralized app on the ethereum network. For this project, a flight purchasing and insurace system was developed and deployed to a local ethereum blockchain.
+This code is part of the Flight Surety Project for the Blockchain Developer Nanodegree by Udacity. For this project, a flight purchasing and insurace decentralized app was developed and deployed to a local ethereum blockchain.
 
 ## Development
 The project vas developed using the following software:
@@ -19,7 +19,7 @@ npm install
 ```
 
 ## Test the project
-If you want to modify the testing of the project, you can modify the TestSupplyChain.js file in the Test folder. To test the project, run the following commands:
+If you want to modify the testing of the project, you can modify the flightSurey.js and oracles.js files in the Test folder. To test the project, run the following commands:
 ```
 truffle compile
 truffle test
@@ -35,15 +35,10 @@ Next, compile the code and deploy from the Truffle development enviroment using 
 compile
 migrate --reset
 ```
-Then, run the frontend from the terminal using the command:
+Then, run the frontend from the terminal to interact with the contract using the command:
 ```
 npm run dev
 ```
 
-### Run DApp locally
-After exiting the truffle command line run the following command to launch the frontend:
-```
-    npm run dev
-```
 
 
